@@ -98,8 +98,6 @@ export default function LoginPage() {
           "User information was not returned by the server."
         );
       }
-
-
       /*
        * Only allow platform admins or staff
        * into the admin portal.

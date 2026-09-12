@@ -99,7 +99,6 @@ export default function LoginPage() {
         );
       }
 
-      alert("Role: " + user.role);
 
       /*
        * Only allow platform admins or staff

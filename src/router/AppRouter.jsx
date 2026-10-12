@@ -10,11 +10,13 @@ import DashboardPage from "../pages/DashboardPage";
 import OrganisationsPage from "../pages/OrganisationsPage";
 import OrganisationReviewsPage from "../pages/OrganisationReviewsPage";
 import OrganisationReviewDetailPage from "../pages/OrganisationReviewDetailPage";
-// import ProjectsPage from "../pages/ProjectsPage";
-// import ResearchPage from "../pages/ResearchPage";
-// import InnovationsPage from "../pages/InnovationsPage";
-// import KnowledgePage from "../pages/KnowledgePage";
-// import OpportunitiesPage from "../pages/OpportunitiesPage";
+import PartnershipsPage from "../pages/PartnershipsPage";
+import PeoplePage from "../pages/PeoplePage";
+import ProjectsPage from "../pages/ProjectsPage";
+import ResearchPage from "../pages/ResearchPage";
+import InnovationsPage from "../pages/InnovationsPage";
+import KnowledgePage from "../pages/KnowledgePage";
+import OpportunitiesPage from "../pages/OpportunitiesPage";
 // import MarketplacePage from "../pages/MarketplacePage";
 // import ImpactPage from "../pages/ImpactPage";
 // import SettingsPage from "../pages/SettingsPage";
@@ -41,11 +43,6 @@ export default function AppRouter() {
           }
         />
 
-        {/* <Route
-          path="/people"
-          element={<PeoplePage />}
-        /> */}
-
         <Route
           path="/organisations"
           element={
@@ -61,13 +58,19 @@ export default function AppRouter() {
         />
 
         <Route
-  path="/organisation-reviews/:slug"
-  element={
-    <OrganisationReviewDetailPage />
-  }
-/>
+          path="/organisation-reviews/:slug"
+          element={
+          <OrganisationReviewDetailPage />
+        }
+       />
+       <Route
+          path="/partnerships"
+          element={<PartnershipsPage />}
+        />
 
-        {/* <Route
+        <Route path="/people" element={<PeoplePage />} />
+
+        <Route
           path="/projects"
           element={
             <ProjectsPage />
@@ -79,9 +82,9 @@ export default function AppRouter() {
           element={
             <ResearchPage />
           }
-        /> */}
+        /> 
 
-        {/* <Route
+         <Route
           path="/innovations"
           element={
             <InnovationsPage />
@@ -102,7 +105,7 @@ export default function AppRouter() {
           }
         />
 
-        <Route
+        {/* <Route
           path="/marketplace"
           element={
             <MarketplacePage />

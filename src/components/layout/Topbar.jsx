@@ -232,7 +232,7 @@ export default function Topbar({
       "user"
     );
 
-    navigate("/login");
+    navigate("/");
   };
 
   return (

@@ -24,7 +24,7 @@ const menuSections = [
     items: [
       {
         name: "Dashboard",
-        path: "/",
+        path: "/dashboard",
         icon: LayoutDashboard,
         end: true,
       },

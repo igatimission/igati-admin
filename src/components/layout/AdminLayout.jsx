@@ -34,7 +34,7 @@ export default function AdminLayout() {
       "user"
     );
 
-    window.location.href = "/login";
+    window.location.href = "/";
   };
 
   return (

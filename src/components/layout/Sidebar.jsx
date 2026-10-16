@@ -101,6 +101,17 @@ const menuSections = [
     ],
   },
   {
+    title: "Apiculture",
+    items: [
+      {
+        name: "Apiculture Applications",
+        path: "/apiculture-applications",
+        icon: BriefcaseBusiness,
+        end: true,
+      },
+    ],
+  },
+  {
     title: "System",
     items: [
       {

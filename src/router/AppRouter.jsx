@@ -17,6 +17,7 @@ import ResearchPage from "../pages/ResearchPage";
 import InnovationsPage from "../pages/InnovationsPage";
 import KnowledgePage from "../pages/KnowledgePage";
 import OpportunitiesPage from "../pages/OpportunitiesPage";
+import ApicultureApplicationsAdmin from "../pages/ApicultureApplicationsAdmin";
 // import MarketplacePage from "../pages/MarketplacePage";
 // import ImpactPage from "../pages/ImpactPage";
 // import SettingsPage from "../pages/SettingsPage";
@@ -103,6 +104,11 @@ export default function AppRouter() {
           element={
             <OpportunitiesPage />
           }
+        />
+
+        <Route
+          path="/apiculture-applications"
+          element={<ApicultureApplicationsAdmin />}
         />
 
         {/* <Route
